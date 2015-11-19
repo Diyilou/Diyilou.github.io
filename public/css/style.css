@@ -744,7 +744,7 @@ dt {
 }
 @media (max-width: 678px) {
   .diyilou-brief-message > h3 > a {
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     color: #606060;
   }
 }
@@ -755,11 +755,11 @@ dt {
 .diyilou-brief-message > p {
   color: #333333;
   padding: 5px 5px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 @media (max-width: 678px) {
   .diyilou-brief-message > p {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
   }
 }
 .diyilou-brief-message > h4 > span {
@@ -777,7 +777,7 @@ dt {
 }
 @media (max-width: 678px) {
   .diyilou-brief-message > h4 > span {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .diyilou-brief-message > h4 > a {
     font-size: 1.2rem;
@@ -978,9 +978,15 @@ dt {
   padding: 15px 3rem;
   margin: 0px;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.1rem;
   -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
   -o-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 678px) {
+  .diyilou-footer {
+    padding: 15px 1.5rem;
+    font-size: 1.3rem;
+  }
 }

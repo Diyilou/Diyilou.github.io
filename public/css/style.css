@@ -890,6 +890,14 @@ dt {
     font-size: 1.3rem;
     padding-left: 1rem;
   }
+  .diyilou-setion-article p {
+    font-size: 1.3rem; 
+    padding: 0.5rem 0.8rem;
+  }
+  .diyilou-setion-article blockquote > p{
+    font-size: 1.25rem;
+    padding: 0.5rem 0rem;
+  }
 }
 .diyilou-setion-article pre {
   padding: 8px 15px;

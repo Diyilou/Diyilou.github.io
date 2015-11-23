@@ -1,49 +1,4 @@
-/* normalize.css 2012-02-07T12:37 UTC - https://github.com/necolas/normalize.css */
-/* =============================================================================
-   HTML5 display definitions
-   ========================================================================== */
-/*
- * Corrects block display not defined in IE6/7/8/9 & FF3
- */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-summary {
-  display: block;
-}
 
-/*
- * Corrects inline-block display not defined in IE6/7/8/9 & FF3
- */
-audio,
-canvas,
-video {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-}
-
-/*
- * Prevents modern browsers from displaying 'audio' without controls
- */
-audio:not([controls]) {
-  display: none;
-}
-
-/*
- * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
- * Known issue: no IE6 support
- */
-[hidden] {
-  display: none;
-}
 
 /* =============================================================================
    Base
@@ -868,16 +823,17 @@ dt {
 .diyilou-setion-article img {
   margin: 5px 15px;
   max-width: 80%;
-  border: 1px #ededed solid;
+  border: 1px #dadada solid;
 }
 .diyilou-setion-article p {
   font-size: 1.1rem; 
   padding: 0.5rem 1rem;
+  color: #333333;
 }
 .diyilou-setion-article strong {
-  font-weight: 700;
+  font-weight: 600;
   font-family: '黑体';
-  color: #101010;
+  color: #333333;
 }
 .diyilou-setion-article h4 {
   font-size: 1rem;
@@ -910,34 +866,41 @@ dt {
   }
 }
 .diyilou-setion-article pre {
-  padding: 8px 15px;
-  margin: 5px 15px;
+  padding: 8px 0px;
+  margin: 5px 30px;
   font-family: consolas,monaco,menlo,"courier new",courier,monospace;
   word-break: break-all;
   break-word: break-word;
-  color: #010101;
-  background-color: #f9f9f9;
+  background: #222222 none repeat scroll 0% 0%;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   -o-border-radius: 2px;
   -ms-border-radius: 2px;
   -khtml-border-radius: 2px;
   border-radius: 2px;
-  border: 1px solid #cecece;
   display: block;
   overflow: auto;
   overflow-y: hidden;
+  color: #fff;
+  max-width: 80%;
 }
 .diyilou-setion-article code {
-  display: inline;
+  display: inline-block;
   word-break: break-all;
   break-word: break-word;
+  margin-bottom: 3px;
+}
+
+.diyilou-setion-article pre > code {
+  color: #fff;
+  margin-left: -20px;
 }
 @media (max-width: 678px) {
   .diyilou-setion-article pre  {
     padding: 8px 5px;
-    margin: 5px 5px;
+    margin: 5px 15px;
     display: block;
+    max-width: 90%;
   }
 }
 .diyilou-setion-article a {

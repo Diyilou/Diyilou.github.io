@@ -867,14 +867,24 @@ dt {
 }
 .diyilou-setion-article img {
   margin: 5px 15px;
-  max-width: 65%;
+  max-width: 80%;
   border: 1px #ededed solid;
 }
 .diyilou-setion-article p {
   font-size: 1.1rem; 
   padding: 0.5rem 1rem;
 }
-
+.diyilou-setion-article strong {
+  font-weight: 700;
+  font-family: '黑体';
+  color: #101010;
+}
+.diyilou-setion-article h4 {
+  font-size: 1rem;
+}
+.diyilou-setion-article p {
+  font-size: 1rem;
+}
 .diyilou-setion-article blockquote{
   margin-left: 1rem;
 }
@@ -884,7 +894,7 @@ dt {
 @media (max-width: 678px) {
   .diyilou-setion-article img {
     margin: 5px 5px;
-    max-width: 80%
+    max-width: 95%;
   }
   .diyilou-setion-article > h4 {
     font-size: 1.3rem;
@@ -905,22 +915,29 @@ dt {
   font-family: consolas,monaco,menlo,"courier new",courier,monospace;
   word-break: break-all;
   break-word: break-word;
-  color: #101010;
-  background-color: #fafafa;
+  color: #010101;
+  background-color: #f9f9f9;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   -o-border-radius: 2px;
   -ms-border-radius: 2px;
   -khtml-border-radius: 2px;
   border-radius: 2px;
-  border: 1px solid #dadada;
+  border: 1px solid #cecece;
+  display: block;
   overflow: auto;
   overflow-y: hidden;
+}
+.diyilou-setion-article code {
+  display: inline;
+  word-break: break-all;
+  break-word: break-word;
 }
 @media (max-width: 678px) {
   .diyilou-setion-article pre  {
     padding: 8px 5px;
     margin: 5px 5px;
+    display: block;
   }
 }
 .diyilou-setion-article a {

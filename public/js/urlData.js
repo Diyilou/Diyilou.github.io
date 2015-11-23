@@ -1,1 +1,1 @@
-var urlMsg = ["public/2015/11/19/readMe_brief.html"]
+var urlMsg = ["public/2015/11/19/readMe_brief.html","public/2015/11/22/jqueryAndDomObject_brief.html"]

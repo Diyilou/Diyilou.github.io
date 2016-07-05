@@ -48,7 +48,9 @@ h1, h2, h3 {
 	padding: 0px;
 	text-align: center;
 }
-
+.share-header > ul > a:hover {
+	cursor: pointer;
+}
 @media (min-width: 1080px) {
 	.share-header {
 		padding: 3.5rem;

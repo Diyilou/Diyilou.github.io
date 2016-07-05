@@ -39,9 +39,9 @@ h1, h2, h3 {
 .share-container {
 	position: relative;
 	height: auto;
-	background: url(../imgs/background.png) no-repeat 0px 0px;
+	background: url(../imgs/headerbeijin.png) no-repeat 0px -135px;
 	background-size: 100% auto;
-	background-color: #fff;
+	background-color: #fcfcfc;
 }
 
 @media (min-width: 1080px) {
@@ -287,7 +287,7 @@ p {
 
 @media (max-width: 640px) {
 	.share-article {
-		padding: 1.5rem 15px;
+		padding: 1.6rem 15px;
 	}
 	.share-pen > img {
 		width: 40px;

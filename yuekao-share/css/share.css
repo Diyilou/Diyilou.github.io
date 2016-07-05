@@ -1,0 +1,281 @@
+html, body {
+	width: 100%;
+	height: auto;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #f0f0f0;
+}
+
+h1, h2, h3 {
+	margin:0px;
+}
+
+.share-container {
+	position: relative;
+	height: auto;
+	background-color: #fff;
+}
+
+@media (min-width: 1080px) {
+	.share-container {
+		width: 1080px;
+		margin: 0px auto;
+	}
+}
+@media (max-width: 1080px) {
+	.share-container {
+		width: 100%;
+	}
+}
+
+/** share-header **/
+.share-header {
+	background-color: #ff7171;
+}
+.share-header > h1,.share-header > h2,.share-header > h3 {
+	text-align: center;
+	color: #fff;
+	font-family: '粗体'；
+}
+.share-header > ul {
+	padding: 0px;
+	text-align: center;
+}
+
+@media (min-width: 1080px) {
+	.share-header {
+		padding: 3.5rem;
+	}
+	.share-header > h1 {
+		font-size: 3.5rem;
+		margin-bottom: 2rem;
+	}
+	.share-header > h3 {
+		font-size: 1.9rem;
+		padding: 0.5rem;
+	}
+	.share-header > h2 {
+		font-size: 2.4rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.share-header > ul > li img{
+		width: 43px;
+		padding: 0px 25px;
+	}
+}
+
+@media (max-width: 1080px) and (min-width: 640px) {
+	.share-header {
+		padding: 3.2rem;
+	}
+	.share-header > h1 {
+		font-size: 3rem;
+		margin-bottom: 1.7rem;
+	}
+	.share-header > h3 {
+		font-size: 1.6rem;
+		padding: 0.3rem;
+	}
+	.share-header > h2 {
+		font-size: 2.1rem;
+		margin-top: 1.7rem;
+		margin-bottom: 1.7rem;
+	}
+
+	.share-header > ul > li img{
+		width: 38px;
+		padding: 0px 25px;
+	}
+}
+
+@media (max-width: 640px) {
+	.share-header {
+		padding: 2rem 1rem;
+	}
+	.share-header > h1 {
+		font-size: 2.2rem;
+		margin-bottom: 1.3rem;
+	}
+	.share-header > h3 {
+		font-size: 1.25rem;
+		padding: 0.3rem;
+	}
+	.share-header > h2 {
+		font-size: 1.85rem;
+		margin-top: 1.3rem;
+		margin-bottom: 1.3rem;
+	}
+
+	.share-header > ul > li img{
+		width: 33px;
+		padding: 0px 0.5rem;
+	}
+}
+
+/**share-article**/
+
+.share-div-1 > h1 , .share-div-1 > h2, .share-div-2 > h1{
+	text-align: center;
+}
+.gray {
+	color: #aeaeae;
+}
+.green {
+	color: #21dbcc;
+}
+.red {
+	color: #f74711;
+}
+.share-pen {
+	position: absolute;
+	left: 0px;
+}
+.share-coffee {
+	position: absolute;
+}
+@media (min-width: 1080px) {
+	.share-article {
+		padding: 3.5rem 15rem;
+	}
+	.share-pen > img {
+		width: 150px;
+	}
+	.share-coffee {
+		right: 30px;
+		margin-top: -150px;
+	}
+	.share-coffee > img {
+		width: 300px;
+	}
+	.share-div-1 > h1 {
+		font-size: 3.8rem;
+		margin-bottom: 2rem;
+	}
+	.share-div-1 > h2 {
+		font-size: 3rem;
+		margin-bottom: 2.5rem;
+	}
+	.share-div-1 > p ,.share-div-2 > p{
+		font-size: 1.5rem;
+		text-indent: 38px;
+	}
+
+	.share-div-2 > h1 {
+		font-size: 3rem;
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+	}
+
+	.share-div-3 > h3 ,.share-div-3 > h1{
+		text-indent: 38px;
+	}
+	.share-div-3 > h3 {
+		font-size: 1.5rem;
+		margin-top: 3.5rem;
+		margin-bottom: 1.3rem;
+	}
+	.share-div-3 > h1 {
+		font-size: 2rem;
+		margin-bottom: 2.5rem;
+	}
+}
+
+@media (max-width: 1080px) {
+	.share-article {
+		padding: 3.5rem 11rem;
+	}
+	.share-pen > img {
+		width: 130px;
+	} 
+	.share-coffee {
+		right: 5px;
+		margin-top: -180px;
+	}
+	.share-coffee > img {
+		width: 210px;
+	}
+	.share-div-1 > h1 {
+		font-size: 3.6rem;
+		margin-bottom: 2rem;
+	}
+	.share-div-1 > h2 {
+		font-size: 2.75rem;
+		margin-bottom: 2.5rem;
+	}
+	.share-div-1 > p ,.share-div-2 > p{
+		font-size: 1.5rem;
+		text-indent: 38px;
+	}
+
+	.share-div-2 > h1 {
+		font-size: 2.75rem;
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+	}
+
+	.share-div-3 > h3 ,.share-div-3 > h1{
+		text-indent: 38px;
+	}
+	.share-div-3 > h3 {
+		font-size: 1.5rem;
+		margin-top: 3.2rem;
+		margin-bottom: 1.2rem;
+	}
+	.share-div-3 > h1 {
+		font-size: 1.8rem;
+		margin-bottom: 2.5rem;
+	}
+}
+
+@media (max-width: 640px) {
+	.share-article {
+		padding: 3rem 15px;
+	}
+	.share-pen > img {
+		width: 80px;
+	} 
+	.share-coffee {
+		right: 5px;
+		margin-top: -150px;
+	}
+	.share-coffee > img {
+		width: 90px;
+	}
+	.share-div-1 > h1 {
+		font-size: 2.8rem;
+		margin-bottom: 1.5rem;
+	}
+	.share-div-1 > h2 {
+		font-size: 2rem;
+		margin-bottom: 1.8rem;
+	}
+	.share-div-1 > p ,.share-div-2 > p{
+		font-size: 1.25rem;
+		text-indent: 38px;
+	}
+
+	.share-div-2 > h1 {
+		font-size: 2rem;
+		margin-top: 1.8rem;
+		margin-bottom: 1.8rem;
+	}
+
+	.share-div-3 > h3 ,.share-div-3 > h1{
+		text-indent: 38px;
+	}
+	.share-div-3 > h3 {
+		font-size: 1.25rem;
+		margin-top: 3.2rem;
+		margin-bottom: 1.2rem;
+	}
+	.share-div-3 > h1 {
+		font-size: 1.3rem;
+		margin-bottom: 2.5rem;
+	}
+}

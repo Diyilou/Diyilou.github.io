@@ -12,37 +12,19 @@
 <body>
 	<div class='share-container'>
 		<header class='share-header'>
-			<h1 class="css45f3a166c66ea red-share" style="color: #f00c47;">领取考研红宝书流程</h1>
-			<h3 class="css45f3a166c66ea red-share" style="color: #f00c47;">1、将此页面分享到“微信、豆瓣、微博、QQ”，选其一即可。</h3>
-			<h3 class="css45f3a166c66ea red-share" style="color: #f00c47;">2、将分享成功的界面截图发送给官网客服学姐。</h3>
-			<h3 class="css45f3a166c66ea red-share" style="color: #f00c47;">3、购买专业课资料即可获赠考研红宝书一本。</h3>
-			<h2 class="css45f3a166c66ea red-share" style="color: #f00c47;"><img src="imgs/share-btn1.png"></h2>
+			<h1 style="color: #f00c47;">领取考研红宝书流程</h1>
+			<h3 style="color: #f00c47;">1、将此页面分享到“微信、豆瓣、微博、QQ”，选其一即可。</h3>
+			<h3 style="color: #f00c47;">2、将分享成功的界面截图发送给官网客服学姐。</h3>
+			<h3 style="color: #f00c47;">3、购买专业课资料即可获赠考研红宝书一本。</h3>
+			<h2 style="color: #f00c47;"><img src="imgs/share-btn1.png"></h2>
 			<ul>
-				<li>
-					<a class="jiathis_button_cqq"><img src="imgs/qq.png" /></a>
-					<a class="jiathis_button_weixin"><img src="imgs/weixin.png" /></a>
-					<a class="jiathis_button_tsina"><img src="imgs/weibo.png" /></a>
-					<a class="jiathis_button_douban"><img src="imgs/douban.png" /></a>
-					<!-- <a href="javascript:;" onclick="jiathis_sendto('cqq');return false;" class="jiatitle"><img src="imgs/qq.png" /></a>
-					<a href="javascript:;" onclick="jiathis_sendto('weixin');return false;" class="jiatitle"><img src="imgs/weixin.png" /></a>
-					<a href="javascript:;" onclick="jiathis_sendto('tsina');return false;" class="jiatitle"><img src="imgs/weibo.png" /></a>
-					<a href="javascript:;" onclick="jiathis_sendto('douban');return false;" class="jiatitle"><img src="imgs/douban.png" /></a> -->
+				<li class="sns-share">
+				    <a href="" class="qq"><img src="imgs/qq.png" /></a>
+				    <a href="" class="weibo"><img src="imgs/weibo.png" /></a>
+				    <a href="" class="wechat"><img src="imgs/weixin.png" /></a>
+				    <a href="" class="douban"><img src="imgs/douban.png" /></a>
 				</li>
 			</ul>
-			<!-- JiaThis Button BEGIN -->
-				<script type="text/javascript" >
-					var jiathis_config={
-						data_track_clickback:true,
-						summary:"",
-						shortUrl:false,
-						hideMore:false
-					}
-				</script>
-			<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2105632" charset="utf-8"></script>
-			<!-- JiaThis Button END -->
-
-			<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a></div>
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["tsina","weixin","sqq","douban"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["tsina","weixin","sqq","douban"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 		</header>
 		<article class='share-article'>
 			<div class='share-pen'>
@@ -50,8 +32,8 @@
 			</div>
 			<div class='share-div-1'>
 				<h1 class="css45f3a166c66ea">考研网</h1>
-				<h2 class="css45f26e6cd66ea">正义联盟给你的一封信</h2>
-				<h2 class='css45f26e6cd66ea' style='color: #aeaeae;'>--考验中的你</h2>
+				<h2>正义联盟给你的一封信</h2>
+				<h2 style='color: #aeaeae;'>--考验中的你</h2>
 				<p>
 				我们是在线研究生组织的团队，我们致力于帮助所有考生考上理想的学校。
 				</p>
@@ -145,5 +127,24 @@
 			</div>
 		</article>
 	</div>
+	<!-- 引入sns.js -->
+	<script src="http://apps.bdimg.com/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/jquery.qrcode.min.js"></script>
+	<script src="js/share.js"></script>
+	<script>
+    $(function(){
+        var $config = {
+		    url    : window.location.href, // 网址，默认使用 window.location.href
+		    site   : '', // 来源（QQ空间会用到）, 默认读取head标签：<meta name="site" content="http://overtrue" />
+		    title  : '越考考研：一封信，来自考研成功后的你！', // 标题，默认读取 document.title
+		    description : '我们是在线研究生组织的团队，我们致力于帮助所有考生考上理想的学校。', // 描述, 默认读取head标签：<meta name="description" content="PHP弱类型的实现原理分析" />
+		    iamge    : 'http://bbs.xiaoniu.com/data/attachment/image/paipai/7a51976182_flow.jpg', // 图片, 默认取网页中第一个img标签
+		    target : '_blank' //打开方式
+		   };
+
+		$('.sns-share').share($config);
+    });
+	</script>
 </body>
 </html>

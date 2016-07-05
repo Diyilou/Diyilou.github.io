@@ -39,7 +39,7 @@ h1, h2, h3 {
 .share-container {
 	position: relative;
 	height: auto;
-	background: url(../imgs/headerbeijin.png) no-repeat 0px -135px;
+	background: url(../imgs/headerbeijin-min.png) no-repeat 0px -135px;
 	background-size: 100% auto;
 	background-color: #fcfcfc;
 }

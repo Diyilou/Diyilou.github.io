@@ -14,9 +14,12 @@ h1, h2, h3 {
 	margin:0px;
 }
 
+
 .share-container {
 	position: relative;
 	height: auto;
+	background: url(../imgs/background.png) no-repeat 0px 0px;
+	background-size: 100% auto;
 	background-color: #fff;
 }
 
@@ -34,7 +37,7 @@ h1, h2, h3 {
 
 /** share-header **/
 .share-header {
-	background-color: #ff7171;
+
 }
 .share-header > h1,.share-header > h2,.share-header > h3 {
 	text-align: center;
@@ -63,10 +66,15 @@ h1, h2, h3 {
 		margin-top: 2rem;
 		margin-bottom: 2rem;
 	}
-
+	.share-header > h2 > img {
+		width: 300px;
+	}
+	.share-header > ul > li a{
+		padding: 15px;
+	}
 	.share-header > ul > li img{
 		width: 43px;
-		padding: 0px 25px;
+		padding: 15px 25px;
 	}
 }
 
@@ -87,7 +95,9 @@ h1, h2, h3 {
 		margin-top: 1.7rem;
 		margin-bottom: 1.7rem;
 	}
-
+	.share-header > h2 > img {
+		width: 265px;
+	}
 	.share-header > ul > li img{
 		width: 38px;
 		padding: 0px 25px;
@@ -111,7 +121,9 @@ h1, h2, h3 {
 		margin-top: 1.3rem;
 		margin-bottom: 1.3rem;
 	}
-
+	.share-header > h2 > img {
+		width: 150px;
+	}
 	.share-header > ul > li img{
 		width: 33px;
 		padding: 0px 0.5rem;
@@ -139,7 +151,7 @@ h1, h2, h3 {
 }
 p {
 	margin: 6px;
-	font-family: '微软雅黑';
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 	line-height: 30px;
 }
 
@@ -297,3 +309,6 @@ p {
 	color: blue;
 }
 
+.red-share {
+	color: #f00c47;
+}

@@ -14,26 +14,8 @@ h1, h2, h3 {
 	margin:0px;
 }
 
-
-@font-face {
-	font-family: "iconfont";
-  /*src: url('fangzheng simple.ttf') format('truetype');*/
-  src: url('PingFang Bold.ttf') format('truetype');
-  /*src: url('katong.TTF') format('truetype');*/
-}
-
-@font-face {
-	font-family: "iconfont1";
-  src: url('fangzheng simple.ttf') format('truetype');
-  /*src: url('PingFang Bold.ttf') format('truetype');*/
-  /*src: url('katong.TTF') format('truetype');*/
-}
-
-@font-face {
-	font-family: "iconfont2";
-  /*src: url('fangzheng simple.ttf') format('truetype');*/
-  /*src: url('PingFang Bold.ttf') format('truetype');*/
-  src: url('katong.TTF') format('truetype');
+a {
+	display: inline-block !important;
 }
 
 .share-container {
@@ -63,7 +45,7 @@ h1, h2, h3 {
 .share-header > h1,.share-header > h2,.share-header > h3 {
 	text-align: center;
 	color: #fff;
-	font-family: 'iconfont' !important;
+	font-family: '微软雅黑';
 }
 .share-header > ul {
 	padding: 0px;
@@ -94,10 +76,13 @@ h1, h2, h3 {
 	}
 	.share-header > ul > li a{
 		padding: 15px;
+		display: block;
+		display: inline-block;
 	}
 	.share-header > ul > li img{
 		width: 43px;
 		padding: 15px 25px;
+		float: left;
 	}
 }
 
@@ -120,6 +105,9 @@ h1, h2, h3 {
 	}
 	.share-header > h2 > img {
 		width: 265px;
+	}
+	.share-header > ul > li > a {
+		display: inline-block;
 	}
 	.share-header > ul > li img{
 		width: 38px;
@@ -147,9 +135,13 @@ h1, h2, h3 {
 	.share-header > h2 > img {
 		width: 180px;
 	}
+	.share-header > ul > li > a {
+		display: inline-block;
+	}
 	.share-header > ul > li img{
 		width: 33px;
 		padding: 0px 0.5rem;
+		vertical-align: bottom;
 	}
 }
 
@@ -175,17 +167,17 @@ h1, h2, h3 {
 p {
 	margin: 6px;
 	line-height: 30px;
-	font-family: 'iconfont1' !important;
+	font-family: '微软雅黑';
 }
 
 .share-div-1 > h1, .share-div-1 > h2 {
 	color: #565656;		
 }
-.share-div-2 > h1 {
+.share-div-2 > h1 , .share-div-1 > h1{
 	font-family: '微软雅黑';
 }
 .share-div-1 > h2 {
-	font-family: 'iconfont2' !important;
+	
 }
 
 
@@ -341,18 +333,7 @@ p {
 	color: #f00c47;
 }
 
-
-@font-face {
-	font-family: "iconfont";
-  src: url('fonts/iconfont.eot'); /* IE9*/
-  src: url('fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('fonts/iconfont.woff') format('woff'), /* chrome、firefox */
-  url('fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
-}
-
 .iconfont {
-  font-family:"iconfont" !important;
   font-size:22px;
   font-style:normal;
   -webkit-font-smoothing: antialiased;

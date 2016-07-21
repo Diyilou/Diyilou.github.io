@@ -653,7 +653,7 @@ ul {
 .publicity-aside {
 	position: fixed;
 	right: 0px;
-	top: 150px;
+	top: 70px;
 	z-index: 9000;
 }
 .publicity-aside > ul {
